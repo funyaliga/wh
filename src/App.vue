@@ -297,7 +297,6 @@ export default {
     margin: 150px;
     padding: var(--content-pt);
     border: var(--content-bd) solid #78BBE6;
-    background: #fff;
     background: #fdfdf2;
     overflow: auto;
     & img{
