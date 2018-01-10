@@ -19,7 +19,6 @@
 <script>
 import cRadio from './components/radio'
 import 'github-markdown-css'
-
 const allTemp = { template: '<div></div>' }
 
 export default {

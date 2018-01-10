@@ -1,5 +1,7 @@
 <template>
 <div id="app">
+    <Loading :active.sync="isLoading"></Loading>
+
     <div id="view">
         <div id="content" ref="content" @scroll="handleScroll">
             <p>喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵喵</p>
@@ -32,11 +34,13 @@
 
 <script>
 import Side from './Side.vue'
+import { Loading } from './components/loading'
 
 export default {
     name: "app",
     components: {
         Side,
+        Loading,
     },
     data(){
         return {
@@ -116,6 +120,7 @@ export default {
                     v: 'bottom',
                 },
             ],
+            isLoading: true,
             filter: '',
             contentStyle: {}
         }
@@ -141,6 +146,7 @@ export default {
                 this.offsetTopInit()
                 this.getBoundingClientRectLeftInit()
                 this.getBoundingClientRectTopInit()
+                this.isLoading = false
             }
             img.src = this.$refs.content.querySelector('img').src
         })
