@@ -1,0 +1,1 @@
+offsetWidth, clientWidth, scrollWidth and -Height
