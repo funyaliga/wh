@@ -1,0 +1,2 @@
+webpackJsonp([5],{"3Yox":function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var o=t("Xoog"),r={data:function(){return{content:"\n## offsetWidth ##\n\n`HTMLElement.offsetWidth` 返回一个元素的布局宽度。\n元素宽度+padding+border+滚动条宽度\n"}},components:{VueMarkdown:t.n(o).a}},s={render:function(){var n=this.$createElement;return(this._self._c||n)("vue-markdown",[this._v(this._s(this.content))])},staticRenderFns:[]},i=t("VU/8")(r,s,!1,null,null,null);e.default=i.exports}});
+//# sourceMappingURL=5.3b432366a9bcd49b16af.js.map

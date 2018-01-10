@@ -260,7 +260,6 @@ export default {
             });
         },
         change(val){
-            console.log(val)
             this.filter = val
         }
     }

@@ -1,0 +1,2 @@
+webpackJsonp([12],{"1e7t":function(n,e,t){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var r=t("Xoog"),i={data:function(){return{content:"\n## clientWidth ##\n\n`Element.clientWidth` 属性表示元素的内部宽度，以像素计。该属性包括内边距，但不包括垂直滚动条（如果有）、边框和外边距。\n"}},components:{VueMarkdown:t.n(r).a}},o={render:function(){var n=this.$createElement;return(this._self._c||n)("vue-markdown",[this._v(this._s(this.content))])},staticRenderFns:[]},s=t("VU/8")(i,o,!1,null,null,null);e.default=s.exports}});
+//# sourceMappingURL=12.9b3fa6c765d9346b13c7.js.map

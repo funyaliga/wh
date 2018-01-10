@@ -131,18 +131,18 @@ export default {
     & *{
         box-sizing: border-box;
     }
+    & .markdown-body{
+        color: #fff;
+        & code {
+            background: rgba(27, 31, 35, .5);
+        }
+        & pre code{
+            color: #607D8B;
+            background: transparent;
+        }
+    }
 }
 
-.markdown-body{
-    color: #fff;
-    & code {
-        background: rgba(27, 31, 35, .5);
-    }
-    & pre code{
-        color: #607D8B;
-        // background: transparent;
-    }
-}
 
 #filter{
     height: 250px;
