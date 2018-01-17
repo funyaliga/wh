@@ -102,8 +102,7 @@ export default {
     },
     computed: {
         compIntroduce(){
-            const f = this.apis.filter(v => v.name === this.selected || v.value === this.selected)[0].introduce
-            return f || allTemp
+            return this.apis.find(v => v.name === this.selected || v.value === this.selected).introduce || allTemp
         }
     },
     methods: {
