@@ -119,9 +119,9 @@ export default {
 
 #api{
     position: absolute;
-    top: 0;
+    top: -20px;
     left: 700px;
-    right: 0;
+    right: -20px;
     height: 100vh;    
     background: #6C567B;
     color: #fff;
